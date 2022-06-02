@@ -41,7 +41,15 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
  
 }
 .quotes-author{
+  margin-left: 30rem;
+  font-size: 1rem;
  
+}
+
+.quote button{
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
 }
 
 

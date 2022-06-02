@@ -37,27 +37,12 @@ const QuoteBox = () => {
 
     return (
         <div  style={{color: colors[randomColor]}} className='quote'>
-
-
         
          <h4 className='quotes-text'><q><i>{quotes[index].quote }</i></q></h4>
             
-            <h5 className='quotes-author'>{quotes[index].author }</h5>
-            
-           
-           <button onClick={changeQuotes}> <ion-icon name="arrow-back-circle-outline"></ion-icon></button>
-
-           
-
-
+         <h5 className='quotes-author'>{quotes[index].author }</h5>
+        <button onClick={changeQuotes} style={{color: colors[randomColor]}}> <ion-icon name="arrow-back-circle-outline"></ion-icon></button>
            {/* Ingresar iconos, terminar proyecto y ejercicio de logica semanal 1 y 2 */}
-
-         
-
-
-
-
-
    
         </div>
     );
